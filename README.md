@@ -53,4 +53,4 @@ This personal project was built using the following:
 
 ## LiveSite
 
-[Business-Card.](https://os-business-card.netlify.app/)https://os-business-card.netlify.app/)
+[Business-Card.](https://os-business-card.netlify.app/)(https://os-business-card.netlify.app/)
