@@ -1,7 +1,29 @@
+@property --gradient-angle {
+  syntax: '<angle>';
+  initial-value: 0deg;
+  inherits: false;
+}
+
+:root {
+  --body_background: white;
+  --body_color: black;
+  --link_color: navy;
+  --card_color: black;
+  --text_color: black;
+
+  --clr-1: #d4fecc;
+  --clr-2: #a9ff99;
+  --clr-3: #53ff33;
+  --clr-4: #20cc00;
+  --clr-5: #189900;
+}
+
 body {
   margin: 0;
   font-family: 'Inter';
-  background: #23252c;
+  background-image: url('../public/main-BG.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 html,
@@ -22,14 +44,16 @@ code {
   width: 320px;
   height: 780px;
   background: white;
-  border-radius: 0.5rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 .img {
   height: 300px;
   max-width: 100%;
-  border-top-left-radius: 0.5rem;
-  border-top-right-radius: 0.5rem;
 }
 
 .info {
@@ -47,7 +71,7 @@ h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 5px;
+  margin: 10px;
   line-height: 3px;
 }
 
@@ -72,6 +96,8 @@ button {
   border-radius: 8px;
   font-weight: 600;
   margin: 0.5rem;
+  font-family: inter;
+  font-size: 14px;
 }
 
 .link-btn {
@@ -80,7 +106,7 @@ button {
 }
 p {
   color: #f5f5f5;
-  font-size: 10px;
+  font-size: 12px;
 }
 
 a {
@@ -90,4 +116,46 @@ a {
 
 .info-email {
   color: black;
+}
+
+.about {
+  background-color: #1a1b21;
+  max-width: auto;
+  height: 299px;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  line-height: 0.5rem;
+  margin-top: -10px;
+}
+
+h2 {
+  color: #f5f5f5;
+  font-size: 16px;
+}
+
+.about-p {
+  color: #dcdcdc;
+  line-height: 15px;
+  padding-bottom: 10px;
+}
+
+.interest {
+  margin: 1rem;
+}
+
+.Footer {
+  background-color: #161619;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  max-width: auto;
+  height: 64px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.footer-icons {
+  height: 25px;
+  width: 25px;
 }
