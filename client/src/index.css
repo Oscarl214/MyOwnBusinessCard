@@ -159,3 +159,14 @@ h2 {
   height: 25px;
   width: 25px;
 }
+
+@media (width: 375px) and (height: 667px) {
+  .card {
+    width: 300px; /* Adjust width to fit the smaller screen */
+    height: 630px; /* Remove max-width to allow full width */
+  }
+
+  body {
+    background-size: 200vh;
+  }
+}
