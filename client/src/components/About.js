@@ -13,7 +13,7 @@ const AboutSection = () => {
         <div className="interests">
           <h2>Interests</h2>
           <p className="about-p">
-            Gym Rat. World Traveler. Fanatic. Food Lover. Sport Fanatic.
+            Gym Rat. World Traveler. Food Lover. Sport Fanatic.
           </p>
         </div>
       </div>
